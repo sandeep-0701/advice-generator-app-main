@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Advice #</h1>
+    <p class="text"></p>
+    <picture>
+      <source media="(min-width: 768px)" srcset="./images/pattern-divider-desktop.svg">
+      <img src="./images/pattern-divider-mobile.svg" alt="">
+    </picture>
+
+    <div>
+      <button onclick="fetchAdvice()">
+        <img src="./images/icon-dice.svg" alt="">
+      </button>
+    </div>
+  </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.google.com/search?q=Sandeep+Guttula&stick=H4sIAAAAAAAAAOOwesSozi3w8sc9YSm5SWtOXmOU4BLzSsxLLEl0LkpNLEkNTk0sSs5wTixK4VnEyh-cmJeSmlqg4F5aUlKakwgAlZ1TBT4AAAA&sa=X&ved=2ahUKEwiy_Lqy3Kn2AhW7zzgGHXQaAfYQnJoFegQIIRAG&biw=871&bih=912&dpr=1.1">Sandeep Guttula</a>.
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
